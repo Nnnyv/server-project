@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f9f82e39-ac13-4ea9-a055-e647f95474c9}</ProjectGuid>
+    <RootNamespace>server</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>q</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="源文件\bc\bcrypt.cpp" />
+    <ClCompile Include="源文件\bc\blowfish.cpp" />
+    <ClCompile Include="源文件\bind.cpp" />
+    <ClCompile Include="源文件\data.cpp" />
+    <ClCompile Include="源文件\group.cpp" />
+    <ClCompile Include="源文件\main.cpp" />
+    <ClCompile Include="源文件\recving.cpp" />
+    <ClCompile Include="源文件\store.cpp" />
+    <ClCompile Include="源文件\to_getin.cpp" />
+    <ClCompile Include="源文件\user.cpp" />
+    <ClCompile Include="源文件\internet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="头文件\bind.h" />
+    <ClInclude Include="头文件\data.h" />
+    <ClInclude Include="头文件\group.h" />
+    <ClInclude Include="头文件\main.h" />
+    <ClInclude Include="头文件\recving.h" />
+    <ClInclude Include="sodium\core.h" />
+    <ClInclude Include="sodium\crypto_aead_aegis128l.h" />
+    <ClInclude Include="sodium\crypto_aead_aegis256.h" />
+    <ClInclude Include="sodium\crypto_aead_aes256gcm.h" />
+    <ClInclude Include="sodium\crypto_aead_chacha20poly1305.h" />
+    <ClInclude Include="sodium\crypto_aead_xchacha20poly1305.h" />
+    <ClInclude Include="sodium\crypto_auth.h" />
+    <ClInclude Include="sodium\crypto_auth_hmacsha256.h" />
+    <ClInclude Include="sodium\crypto_auth_hmacsha512.h" />
+    <ClInclude Include="sodium\crypto_auth_hmacsha512256.h" />
+    <ClInclude Include="sodium\crypto_box.h" />
+    <ClInclude Include="sodium\crypto_box_curve25519xchacha20poly1305.h" />
+    <ClInclude Include="sodium\crypto_box_curve25519xsalsa20poly1305.h" />
+    <ClInclude Include="sodium\crypto_core_ed25519.h" />
+    <ClInclude Include="sodium\crypto_core_hchacha20.h" />
+    <ClInclude Include="sodium\crypto_core_hsalsa20.h" />
+    <ClInclude Include="sodium\crypto_core_ristretto255.h" />
+    <ClInclude Include="sodium\crypto_core_salsa20.h" />
+    <ClInclude Include="sodium\crypto_core_salsa2012.h" />
+    <ClInclude Include="sodium\crypto_core_salsa208.h" />
+    <ClInclude Include="sodium\crypto_generichash.h" />
+    <ClInclude Include="sodium\crypto_generichash_blake2b.h" />
+    <ClInclude Include="sodium\crypto_hash.h" />
+    <ClInclude Include="sodium\crypto_hash_sha256.h" />
+    <ClInclude Include="sodium\crypto_hash_sha512.h" />
+    <ClInclude Include="sodium\crypto_kdf.h" />
+    <ClInclude Include="sodium\crypto_kdf_blake2b.h" />
+    <ClInclude Include="sodium\crypto_kdf_hkdf_sha256.h" />
+    <ClInclude Include="sodium\crypto_kdf_hkdf_sha512.h" />
+    <ClInclude Include="sodium\crypto_kx.h" />
+    <ClInclude Include="sodium\crypto_onetimeauth.h" />
+    <ClInclude Include="sodium\crypto_onetimeauth_poly1305.h" />
+    <ClInclude Include="sodium\crypto_pwhash.h" />
+    <ClInclude Include="sodium\crypto_pwhash_argon2i.h" />
+    <ClInclude Include="sodium\crypto_pwhash_argon2id.h" />
+    <ClInclude Include="sodium\crypto_pwhash_scryptsalsa208sha256.h" />
+    <ClInclude Include="sodium\crypto_scalarmult.h" />
+    <ClInclude Include="sodium\crypto_scalarmult_curve25519.h" />
+    <ClInclude Include="sodium\crypto_scalarmult_ed25519.h" />
+    <ClInclude Include="sodium\crypto_scalarmult_ristretto255.h" />
+    <ClInclude Include="sodium\crypto_secretbox.h" />
+    <ClInclude Include="sodium\crypto_secretbox_xchacha20poly1305.h" />
+    <ClInclude Include="sodium\crypto_secretbox_xsalsa20poly1305.h" />
+    <ClInclude Include="sodium\crypto_secretstream_xchacha20poly1305.h" />
+    <ClInclude Include="sodium\crypto_shorthash.h" />
+    <ClInclude Include="sodium\crypto_shorthash_siphash24.h" />
+    <ClInclude Include="sodium\crypto_sign.h" />
+    <ClInclude Include="sodium\crypto_sign_ed25519.h" />
+    <ClInclude Include="sodium\crypto_sign_edwards25519sha512batch.h" />
+    <ClInclude Include="sodium\crypto_stream.h" />
+    <ClInclude Include="sodium\crypto_stream_chacha20.h" />
+    <ClInclude Include="sodium\crypto_stream_salsa20.h" />
+    <ClInclude Include="sodium\crypto_stream_salsa2012.h" />
+    <ClInclude Include="sodium\crypto_stream_salsa208.h" />
+    <ClInclude Include="sodium\crypto_stream_xchacha20.h" />
+    <ClInclude Include="sodium\crypto_stream_xsalsa20.h" />
+    <ClInclude Include="sodium\crypto_verify_16.h" />
+    <ClInclude Include="sodium\crypto_verify_32.h" />
+    <ClInclude Include="sodium\crypto_verify_64.h" />
+    <ClInclude Include="sodium\export.h" />
+    <ClInclude Include="sodium\randombytes.h" />
+    <ClInclude Include="sodium\randombytes_internal_random.h" />
+    <ClInclude Include="sodium\randombytes_sysrandom.h" />
+    <ClInclude Include="sodium\runtime.h" />
+    <ClInclude Include="sodium\utils.h" />
+    <ClInclude Include="sodium\version.h" />
+    <ClInclude Include="头文件\internet.h" />
+    <ClInclude Include="头文件\store.h" />
+    <ClInclude Include="头文件\to_getin.h" />
+    <ClInclude Include="头文件\user.h" />
+    <ClInclude Include="源文件\bc\bcrypt.h" />
+    <ClInclude Include="源文件\bc\node_blf.h" />
+    <ClInclude Include="源文件\bc\openbsd.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="qq\qqallbasedata.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

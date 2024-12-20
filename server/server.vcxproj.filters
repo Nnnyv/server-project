@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源文件\main.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\user.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\internet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\recving.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\to_getin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\store.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\group.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\bind.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\bc\bcrypt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="源文件\bc\blowfish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sodium\core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_aead_aegis128l.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_aead_aegis256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_aead_aes256gcm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_aead_chacha20poly1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_aead_xchacha20poly1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_auth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_auth_hmacsha256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_auth_hmacsha512.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_auth_hmacsha512256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_box.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_box_curve25519xchacha20poly1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_box_curve25519xsalsa20poly1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_core_ed25519.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_core_hchacha20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_core_hsalsa20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_core_ristretto255.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_core_salsa20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_core_salsa208.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_core_salsa2012.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_generichash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_generichash_blake2b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_hash_sha256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_hash_sha512.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_kdf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_kdf_blake2b.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_kdf_hkdf_sha256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_kdf_hkdf_sha512.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_kx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_onetimeauth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_onetimeauth_poly1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_pwhash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_pwhash_argon2i.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_pwhash_argon2id.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_pwhash_scryptsalsa208sha256.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_scalarmult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_scalarmult_curve25519.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_scalarmult_ed25519.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_scalarmult_ristretto255.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_secretbox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_secretbox_xchacha20poly1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_secretbox_xsalsa20poly1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_secretstream_xchacha20poly1305.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_shorthash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_shorthash_siphash24.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_sign.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_sign_ed25519.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_sign_edwards25519sha512batch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_stream_chacha20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_stream_salsa20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_stream_salsa208.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_stream_salsa2012.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_stream_xchacha20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_stream_xsalsa20.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_verify_16.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_verify_32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\crypto_verify_64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\export.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\randombytes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\randombytes_internal_random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\randombytes_sysrandom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\runtime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sodium\version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="头文件\internet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="头文件\user.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="头文件\data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="头文件\recving.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="头文件\main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="头文件\to_getin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="头文件\store.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="头文件\group.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="头文件\bind.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="源文件\bc\bcrypt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="源文件\bc\node_blf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="源文件\bc\openbsd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="qq\qqallbasedata.txt" />
+  </ItemGroup>
+</Project>
